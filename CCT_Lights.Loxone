@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="252" LxAV="76" NextObj="125" NextConst="1" NextNote="1" NextMem="5">
-	<C Type="Document" V="15050304" U="1e7ac6d8-0395-731d-ffff6fade35cd437" Title="CCT Lights" ConfigVersion="15050304" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2025-04-13 20:51:45" CDate="" BDate="" DateS="513802305" Street="Jindřišká" Town="Praha" PostCode="11000" Ctry="CZ" Latitude="50.076" Longitude="14.438" SL="248" Logo="" uuidNotifications="1e7ac6d8-0392-7319-ffff6fade35cd437" uuidFavSeq="1e7ac6d8-0392-731b-ffff6fade35cd437" uuidFavCol="1e7ac6d8-0392-731c-ffff6fade35cd437" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="1e7ac6d8-0392-731a-ffff6fade35cd437" UnitPrecipitation="1" Currency="Kč" UpdTime="120" AUE="true" CrashL="true" Geo="2" NumO="455" APPKEY="0B26D311F161A80A0251E751E3366E15" APPID="F63EA0">
+<ControlList Version="252" LxAV="76" NextObj="137" NextConst="1" NextNote="1" NextMem="5">
+	<C Type="Document" V="15050304" U="1e7ac6d8-0395-731d-ffff6fade35cd437" Title="CCT Lights" ConfigVersion="15050304" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2025-04-13 20:55:30" CDate="" BDate="" DateS="513802530" Street="Jindřišká" Town="Praha" PostCode="11000" Ctry="CZ" Latitude="50.076" Longitude="14.438" SL="248" Logo="" uuidNotifications="1e7ac6d8-0392-7319-ffff6fade35cd437" uuidFavSeq="1e7ac6d8-0392-731b-ffff6fade35cd437" uuidFavCol="1e7ac6d8-0392-731c-ffff6fade35cd437" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="1e7ac6d8-0392-731a-ffff6fade35cd437" UnitPrecipitation="1" Currency="Kč" UpdTime="120" AUE="true" CrashL="true" Geo="2" NumO="456" APPKEY="0B26D311F161A80A0251E751E3366E15" APPID="F63EA0">
 		<HP H="" Sc="-2" S="WGpiqX5LbyaIrGD1MuWTTyrxvlVqUpqf" Alg="1"/>
 		<C Type="LoxCaption" V="172" U="1e7ac6d8-0395-731f-ffff6fade35cd437" Title="Ikony" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5"/>
 		<C Type="CategoryCaption" V="172" U="1e7ac6d8-0395-7321-ffff6fade35cd437" Title="Kategorie" WF="16384">
@@ -1258,7 +1258,7 @@
 			<C Type="LoxCaption" V="172" U="1e7ac6dc-01d3-76f6-ffff6fade35cd437" Title="Link" Cl="0,0,0" WF="16384" CaptionType="24" SubType="24"/>
 		</C>
 		<C Type="Program" V="172" U="1e7ac6dc-01d5-771d-ffff6fade35cd437" Title="Miniserver" Ref="1e7ac6dc-01cb-755c-ffff6fade35cd437" WF="16384">
-			<C Type="Page" V="172" U="1e7ac6dc-01d5-771f-ffff6fade35cd437" Title="Strana" WF="16384">
+			<C Type="Page" V="172" U="1e7ac6dc-01d5-771f-ffff6fade35cd437" Title="Strana" WF="16384" NTXT="https://github.com/FilipHonzarek/Loxone">
 				<IoData Cr="1e7ac6d8-0395-73b3-ffff6fade35cd437" Pr="1e7ac6d8-0399-748e-ffff6fade35cd437"/>
 				<C Type="InputRef" V="172" U="1e9ff573-004a-090b-ffff6fade35cd437" Title="Čas východu Slunce" Px="1632" Py="1920" Px2="3744" Py2="2112" Cl="238,238,238" Nio="4" Ref="1e7ac6d8-0395-735b-ffff6fade35cd437" WF="133120" Analog="true" LinkRefType="277">
 					<Co K="AI" Nc="1" U="1e9ff573-004a-0907-00ff40509cb22d75">
@@ -1391,7 +1391,7 @@
 					<IoData Cr="1e7ac6d8-0395-73b3-ffff6fade35cd437" Pr="1e7ac6d8-0399-748e-ffff6fade35cd437"/>
 					<Display Unit="&lt;v&gt;" StateOnly="true"/>
 				</C>
-				<C Type="Text" V="172" U="1e9ff537-0014-7739-ffff29ee81579643" Title="Poznámka" Px="1632" Py="768" Px2="12455" Py2="1164" Cl="255,249,196" LtE="513785495" Text="Vypočítá cirkadiální teplotu bílé barvy mezi západem a východem slunce v souvislosti s aktuálním časem v rozmezí nastavených teplot. [K]
+				<C Type="Text" V="172" U="1e9ff537-0014-7739-ffff29ee81579643" Title="Poznámka" Px="1632" Py="768" Px2="14167" Py2="1164" Cl="255,249,196" LtE="513785495" Text="Vypočítá cirkadiální teplotu bílé barvy mezi západem a východem slunce v souvislosti s aktuálním časem v rozmezí nastavených teplot. [K]
 Výpočet probíhá přes Hannovu funkci, výsledkem je hladký náběh i doběh. Lépe zachytí večerní útlum a pozvolný náběh ráno."/>
 				<C Type="Formula" V="172" U="1e9ff537-0014-773a-ffff29ee81579643" Title="O5" Px="4704" Py="1632" Px2="6048" Py2="2688" Cl="105,195,80" Nio="6" LtE="513785084" WF="131072" Formula="IF(I3&gt;=I1;IF(I3&lt;=I2;0,5*(1 + COS(3,14 * (2*(I3-I1)/(I2-I1) - 1)));0);0)">
 					<Co K="Input1" Nc="1" U="1e9ff537-0014-773b-ffff29ee81579643">
@@ -1442,8 +1442,8 @@ Výpočet probíhá přes Hannovu funkci, výsledkem je hladký náběh i doběh
 					</Co>
 					<Co K="AQ" U="1e9ff6ee-0108-e780-ffff172d79e2ef62"/>
 				</C>
-				<C Type="Text" V="172" U="1e9ff6ee-0108-e781-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5184" Px2="16327" Py2="5388" Cl="255,249,196" LtE="513800107" Text="Intenzita Standard CCT.WW (0..1)"/>
-				<C Type="Text" V="172" U="1e9ff6ee-0108-e782-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5376" Px2="16273" Py2="5580" Cl="255,249,196" LtE="513800114" Text="Intenzita Standard CCT.CW (0..1)"/>
+				<C Type="Text" V="172" U="1e9ff6ee-0108-e781-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5184" Px2="16659" Py2="5388" Cl="255,249,196" LtE="513800107" Text="Intenzita Standard CCT.WW (0..1)"/>
+				<C Type="Text" V="172" U="1e9ff6ee-0108-e782-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5376" Px2="16621" Py2="5580" Cl="255,249,196" LtE="513800114" Text="Intenzita Standard CCT.CW (0..1)"/>
 				<C Type="Memory" V="172" U="1e9ff6ee-0108-e783-ffff172d79e2ef62" Title="LED.CCT:1_WW.Intensity" Px="11328" Py="5184" Px2="13440" Py2="5376" Cl="238,238,238" Nio="3" LtE="513590075" WF="131088" Tp="1">
 					<Co K="Input" Nc="1" U="1e9ff6ee-0108-e784-ffff172d79e2ef62">
 						<In Input="1e9ff6ee-0108-e780-ffff172d79e2ef62"/>
@@ -1511,9 +1511,9 @@ Výpočet probíhá přes Hannovu funkci, výsledkem je hladký náběh i doběh
 					<IoData Cr="1e7ac6d8-0395-73b3-ffff6fade35cd437" Pr="1e7ac6d8-0399-74ea-ffff6fade35cd437"/>
 					<Display Unit="&lt;v.2&gt;" StateOnly="true"/>
 				</C>
-				<C Type="Text" V="172" U="1e9ff6ee-0108-e7c8-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5568" Px2="16068" Py2="5772" Cl="255,249,196" LtE="513590335" Text="Intenzita Boost.CCT.WW (0..1)"/>
-				<C Type="Text" V="172" U="1e9ff6ee-0108-e7c9-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5760" Px2="16014" Py2="5964" Cl="255,249,196" LtE="513590339" Text="Intenzita Boost.CCT.CW (0..1)"/>
-				<C Type="Text" V="172" U="1e9ff6ee-0108-e7ca-ffff172d79e2ef62" Title="Poznámka" Px="1632" Py="2880" Px2="16713" Py2="3852" Cl="255,249,196" LtE="513793727" Text="Intenzita teplé a studené bílé podle aktuální vypočtené cirkadiální teploty v závislosti na typu pásku a jeho parametrů (rozsahu barevných teplot).
+				<C Type="Text" V="172" U="1e9ff6ee-0108-e7c8-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5568" Px2="16334" Py2="5772" Cl="255,249,196" LtE="513590335" Text="Intenzita Boost.CCT.WW (0..1)"/>
+				<C Type="Text" V="172" U="1e9ff6ee-0108-e7c9-ffff172d79e2ef62" Title="Poznámka" Px="13536" Py="5760" Px2="16296" Py2="5964" Cl="255,249,196" LtE="513590339" Text="Intenzita Boost.CCT.CW (0..1)"/>
+				<C Type="Text" V="172" U="1e9ff6ee-0108-e7ca-ffff172d79e2ef62" Title="Poznámka" Px="1632" Py="2880" Px2="18978" Py2="3852" Cl="255,249,196" LtE="513793727" Text="Intenzita teplé a studené bílé podle aktuální vypočtené cirkadiální teploty v závislosti na typu pásku a jeho parametrů (rozsahu barevných teplot).
 Standardní výstup udržuje intenzitu světla během celého dne konstantní.
 Boost výstup maximalizuje intenzitu na maximum, ale v aktuální cirkadiální teplotě.
 
@@ -1724,13 +1724,14 @@ Pozn. MaxBoost výstup (obě teploty bílé barvy na 100%), maximální jas, ale
 					<IoData Cr="1e7ac6d8-0395-73b3-ffff6fade35cd437" Pr="1e7ac6d8-0399-74ce-ffff6fade35cd437"/>
 					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
 				</C>
-				<C Type="Text" V="172" U="1e9ffb56-01aa-b585-ffff6fade35cd437" Title="Poznámka" Px="1632" Py="7200" Px2="8337" Py2="7788" Cl="255,249,196" LtE="513801188" Text="Click: Zhasne/Rozsvítí defaultní náladu 99
+				<C Type="Text" V="172" U="1e9ffb56-01aa-b585-ffff6fade35cd437" Title="Poznámka" Px="1632" Py="7200" Px2="9298" Py2="7788" Cl="255,249,196" LtE="513801188" Text="Click: Zhasne/Rozsvítí defaultní náladu 99
 Dlouhý stisk: Stmívání dolů, další dlouhý stisk - &quot;stmívání&quot; nahoru dle nastavení LICO
 Dvojklik: přepne další náladu."/>
 				<C Type="Text" V="172" U="1e9fffc4-0163-56cd-ffff6fade35cd437" Title="Poznámka" Px="17280" Py="864" Px2="22933" Py2="1644" Cl="255,249,196" LtE="513802269" Text="LED.CCT.Min:Temp &gt; Pozadovane rozmezi teplot pro sviceni
 LED.CCT.Max:Temp &gt; Pozadovane rozmezi teplot pro sviceni
 LED.CCT:1_Strip.WW.Temp &gt; teplota teple bile LED pasku
 LED.CCT:1_Strip.CW.Temp &gt; teplota studene bile LED pasku"/>
+				<C Type="Text" V="172" U="1ea00111-011d-4eaa-ffff6fade35cd437" Title="Poznámka" Px="10368" Py="16320" Px2="14086" Py2="16524" Cl="255,249,196" LtE="513802515" Text="https://github.com/FilipHonzarek/Loxone"/>
 			</C>
 		</C>
 	</C>
